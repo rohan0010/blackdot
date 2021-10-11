@@ -61,38 +61,12 @@ const Contact = ({ location }) => {
                     <div className="contact-info-dec">
                     
                       <p> BLACK DOT ITSERVICES LLP
-                        <br/>
-                      Registered Office   604,                        <br/>
- Tower Ferrera, Mahagun Mansion                         <br/>
-Phase 1, Indirapuram, 
-         Vaibhavkhand,                        <br/>
-Ghaziabad,Ghaziabad,Uttar Pradesh,201010,                        <br/>
+                     
 
 
-PAN - AAXFB4381J
-<br/>
 
-MAIN OBJECT  –                          <br/>
-WEB SITE DESIGNING, SOFTWARE DESIGNING 
-<br/>
 
-Director details : 
-<br/>
 
-ANKIT KAPOOR                        <br/>
- – DIN- 09052972,                        <br/>
- PAN – AUZPK3962C,                        <br/>
- ADHAAR – 3255-7987-6540                        <br/>
-
-Email Id- ankit9879@gmail.com ,                        <br/>
- Ph No. 9711756888
- <br/>
-
-ANKUR ARORA                         <br/>
-- DIN-  09053243 ,                        <br/>
- PAN- AUZPK3962C, 
-Ph. No. 9810230941,                        <br/>
- Email Id - ankur.sqft@gmail.com                        <br/>
 
 
  </p>

@@ -5,7 +5,7 @@ import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import SectionTitleWithText from "../../components/section-title/SectionTitleWithText";
-// import BannerOne from "../../wrappers/banner/BannerOne";
+import BannerOne from "../../wrappers/banner/BannerOne";
 // import TextGridOne from "../../wrappers/text-grid/TextGridOne";
 // import FunFactOne from "../../wrappers/fun-fact/FunFactOne";
 // import TeamMemberOne from "../../wrappers/team-member/TeamMemberOne";
@@ -34,7 +34,7 @@ const About = ({ location }) => {
         <SectionTitleWithText spaceTopClass="pt-100" spaceBottomClass="pb-95" />
 
         {/* banner */}
-        {/* <BannerOne spaceBottomClass="pb-70" /> */}
+        <BannerOne spaceBottomClass="pb-70" />
 
         {/* text grid */}
         {/* <TextGridOne spaceBottomClass="pb-70" /> */}
