@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 import React from "react";
-import { Link } from "react-router-dom";
 import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
 import ProductGridTwo from "./ProductGridTwo";
@@ -17,29 +16,20 @@ const TabProductFive = ({
         spaceBottomClass ? spaceBottomClass : ""
       }`}
     >
-      <div className="container">
+      <div className="container mt-5">
         <Tab.Container defaultActiveKey="bestSeller">
           <Nav
             variant="pills"
-            className={`product-tab-list-2 mb-60 ${
+            className={`product-tab-list-2 mb-30 ${
               productTabClass ? productTabClass : ""
             }`}
           >
             <Nav.Item>
               <Nav.Link eventKey="newArrival">
-                <h4>New Arrivals</h4>
+                <h4>Our Services</h4>
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
-              <Nav.Link eventKey="bestSeller">
-                <h4>Best Sellers</h4>
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link eventKey="saleItems">
-                <h4>Sale Items</h4>
-              </Nav.Link>
-            </Nav.Item>
+           
           </Nav>
           <Tab.Content>
             <Tab.Pane eventKey="newArrival">
@@ -74,14 +64,14 @@ const TabProductFive = ({
             </Tab.Pane>
           </Tab.Content>
         </Tab.Container>
-        <div className="view-more text-center mt-20 toggle-btn6 col-12">
+        {/* <div className="view-more text-center mt-20 toggle-btn6 col-12">
           <Link
             className="loadMore6"
             to={process.env.PUBLIC_URL + "/shop-grid-standard"}
           >
             VIEW MORE PRODUCTS
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );

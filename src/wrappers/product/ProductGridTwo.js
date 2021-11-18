@@ -6,7 +6,7 @@ import ProductGridSingleTwo from "../../components/product/ProductGridSingleTwo"
 import { addToCart } from "../../redux/actions/cartActions";
 import { addToWishlist } from "../../redux/actions/wishlistActions";
 import { addToCompare } from "../../redux/actions/compareActions";
-
+import pro from './product.json'
 const ProductGridTwo = ({
   products,
   currency,
@@ -23,7 +23,7 @@ const ProductGridTwo = ({
 }) => {
   return (
     <Fragment>
-      {products.map((product) => {
+      {pro.map((product) => {
         return (
           <ProductGridSingleTwo
             sliderClassName={sliderClassName}

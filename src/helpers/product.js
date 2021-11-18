@@ -8,7 +8,32 @@ export const getProducts = (products, category, type, limit) => {
 
   if (type && type === "new") {
     const newProducts = finalProducts.filter(single => single.new);
-    return newProducts.slice(0, limit ? limit : newProducts.length);
+    console.log("jdfjfdj",JSON.stringify(newProducts[0]))
+    let product=[]
+    product.push({
+      "id":"68",
+      "sku":"asdf190",
+      "name":"Commercial Waste Management",
+      "price":3.1,
+      "discount":10,
+      "new":true,
+      "rating":4,
+      "saleCount":29,
+      "category":[
+         "accessories"
+      ],
+      "tag":[
+         "accessories"
+      ],
+      "stock":20,
+      "image":[
+         "/assets/img/product/commercial-1.jpg",
+        
+      ],
+      "shortDescription":"Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+      "fullDescription":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+   })
+    return product.slice(0, limit ? limit : product.length);
   }
   if (type && type === "bestSeller") {
     return finalProducts
@@ -23,7 +48,7 @@ export const getProducts = (products, category, type, limit) => {
     );
     return saleItems.slice(0, limit ? limit : saleItems.length);
   }
-  return finalProducts.slice(0, limit ? limit : finalProducts.length);
+  // return finalProducts.slice(0, limit ? limit : finalProducts.length);
 };
 
 // get product discount price

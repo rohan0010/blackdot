@@ -1,0 +1,164 @@
+[
+    {
+        "id":"68",
+        "sku":"asdf190",
+        "name":"Commercial Waste Management",
+        "price":3.1,
+        "discount":10,
+        "new":true,
+        "rating":4,
+        "saleCount":29,
+        "category":[
+           "accessories"
+        ],
+        "tag":[
+           "accessories"
+        ],
+        "stock":20,
+        "image":[
+           "/assets/img/product/commercial-1.jpg",
+           "/assets/img/product/commercial-1.jpg",
+
+           "/assets/img/product/commercial-1.jpg",
+
+           "/assets/img/product/commercial-1.jpg",
+           "/assets/img/product/commercial-1.jpg"
+         
+        ],
+        "shortDescription":"Black Dot provides quality collection, recycling and disposal services to both large and small businesses",
+        "fullDescription":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+     },
+     {
+        "id":"69",
+        "sku":"aydf190",
+        "name":"Industrial Waste Management",
+        "price":3.1,
+        "discount":10,
+        "new":true,
+        "rating":4,
+        "saleCount":29,
+        "category":[
+           "accessories"
+        ],
+        "tag":[
+           "accessories"
+        ],
+        "stock":20,
+        "image":[
+           "/assets/img/product/industrial-1.jpg",
+           "/assets/img/product/industrial-1.jpg",
+           "/assets/img/product/industrial-1.jpg",
+           "/assets/img/product/industrial-1.jpg",
+           "/assets/img/product/industrial-1.jpg"
+         
+        ],
+        "shortDescription":"Black Dot provides its services to a range of industries both large, medium and small in size.",
+        "fullDescription":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+     },
+     {
+        "id":"70",
+        "sku":"aydf190",
+        "name":"Residential Waste Management",
+        "price":3.1,
+        "discount":10,
+        "new":true,
+        "rating":4,
+        "saleCount":29,
+        "category":[
+           "accessories"
+        ],
+        "tag":[
+           "accessories"
+        ],
+        "stock":20,
+        "image":[
+           "/assets/img/product/residential-1.jpg",
+           "/assets/img/product/residential-1.jpg",
+           "/assets/img/product/residential-1.jpg",
+           "/assets/img/product/residential-1.jpg",
+           "/assets/img/product/residential-1.jpg"
+         
+        ],
+        "shortDescription":"Black Dot is one of the leading provider of eco-friendly and dependable Door-to-Door collection.",
+        "fullDescription":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+     },
+     {
+        "id":"71",
+        "sku":"aydf190",
+        "name":"Document Destruction",
+        "price":3.1,
+        "discount":10,
+        "new":true,
+        "rating":4,
+        "saleCount":29,
+        "category":[
+           "accessories"
+        ],
+        "tag":[
+           "accessories"
+        ],
+        "stock":20,
+        "image":[
+           "/assets/img/product/document-1.jpg",
+           "/assets/img/product/document-1.jpg",
+           "/assets/img/product/document-1.jpg",
+           "/assets/img/product/document-1.jpg",
+           "/assets/img/product/document-1.jpg"
+         
+        ],
+        "shortDescription":"For scheduled paper shredding services, customers receive secure containers free of charge.",
+        "fullDescription":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+     },
+     {
+        "id":"72",
+        "sku":"aydf190",
+        "name":"Product Destruction",
+        "price":3.1,
+        "discount":10,
+        "new":true,
+        "rating":4,
+        "saleCount":29,
+        "category":[
+           "accessories"
+        ],
+        "tag":[
+           "accessories"
+        ],
+        "stock":20,
+        "image":[
+           "/assets/img/product/product-1.jpg",
+           "/assets/img/product/product-1.jpg",
+           "/assets/img/product/product-1.jpg",
+           "/assets/img/product/product-1.jpg",
+           "/assets/img/product/product-1.jpg"
+         
+        ],
+        "shortDescription":"Black Dot introduces safe and secure product destruction and recycling service."
+     },
+     {
+        "id":"77",
+        "sku":"aydf190",
+        "name":"Purchase Of Scrap",
+        "price":3.1,
+        "discount":10,
+        "new":true,
+        "rating":4,
+        "saleCount":29,
+        "category":[
+           "accessories"
+        ],
+        "tag":[
+           "accessories"
+        ],
+        "stock":20,
+        "image":[
+           "/assets/img/product/purchase-1.jpg",
+           "/assets/img/product/purchase-1.jpg",
+           "/assets/img/product/purchase-1.jpg",
+           "/assets/img/product/purchase-1.jpg",
+           "/assets/img/product/purchase-1.jpg"
+         
+        ],
+        "shortDescription":"We Buy Your Recyclables! At Black Dot we believe in the Three R’s, Reduce, Reuse and Recycle."
+     }
+]
